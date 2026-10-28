@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "sui-insurance-ai": {
+      "tools": [
+        {
+          "name": "verify_move_object_safety",
+          "description": "Verifies dynamic field object state and cryptographic invariants under Sui Move",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "object_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "object_id"
+            ]
+          }
+        },
+        {
+          "name": "trigger_ptb_insurance_release",
+          "description": "Authorizes programmable transaction block indemnity for Move object degradation",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "object_id": {
+                "type": "string"
+              },
+              "payout_mist": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "object_id",
+              "payout_mist"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
