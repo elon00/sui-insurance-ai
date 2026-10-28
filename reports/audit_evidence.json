@@ -1,0 +1,10 @@
+{
+  "project": "sui-insurance-ai",
+  "commit_sha": "a581eab34bdf5757a23abbf1292bf8df839e72e9",
+  "timestamp": "2026-10-28T07:44:55.511526Z",
+  "score": 100,
+  "theme": "Object-Centric Vault Indemnity & Programmable Transaction Safety",
+  "blockchain": "Sui Network (Move Testnet)",
+  "contract": "SuiInsuranceRegistry.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: sui-insurance-ai ($SUIINS)\n    Chain: Sui Network (Move Testnet)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (SuiInsuranceRegistry.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION\n======================================================================\n"
+}
